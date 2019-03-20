@@ -13,6 +13,8 @@ return [
 
         'filter' => 'filter',
 
+        'search' => 'search',
+
         'sort' => 'sort',
 
         'fields' => 'fields',

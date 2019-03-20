@@ -4,6 +4,7 @@ namespace Spatie\QueryBuilder;
 
 use Illuminate\Http\Request;
 use Illuminate\Database\Eloquent\Builder;
+use Spatie\QueryBuilder\Concerns\SearchesQuery;
 use Spatie\QueryBuilder\Concerns\SortsQuery;
 use Spatie\QueryBuilder\Concerns\FiltersQuery;
 use Spatie\QueryBuilder\Concerns\AddsFieldsToQuery;
@@ -13,6 +14,7 @@ use Spatie\QueryBuilder\Concerns\AppendsAttributesToResults;
 class QueryBuilder extends Builder
 {
     use FiltersQuery,
+        SearchesQuery,
         SortsQuery,
         AddsIncludesToQuery,
         AddsFieldsToQuery,
