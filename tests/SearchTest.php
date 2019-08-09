@@ -7,7 +7,7 @@ use Spatie\QueryBuilder\Search;
 use Spatie\QueryBuilder\QueryBuilder;
 use Illuminate\Database\Eloquent\Collection;
 use Spatie\QueryBuilder\Enums\SearchModifier;
-use Spatie\QueryBuilder\Tests\Models\AppendModel;
+use Spatie\QueryBuilder\Tests\TestClasses\Models\AppendModel;
 use Spatie\QueryBuilder\Exceptions\InvalidSearchQuery;
 
 class SearchTest extends TestCase
